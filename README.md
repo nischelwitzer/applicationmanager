@@ -10,6 +10,8 @@ Example with Unity, OpenCV and Face68 Detection. Nose and Mouth calculation. Inc
 Needs also the free In-game Debug Console: 
 https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
 
+## Info zum Application Manager
+
 ```
 * ApplicationManager.cs (in empty GO ApplicationManager)
 * Version 3.0 - with InfoCanvas, OpenCV, Uduino
@@ -44,6 +46,9 @@ https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
 */
 ```
 
+## DMT Static Store
+
+Globaler Speicher um bei einen Scenenwechsel Daten zu übernehmen.
 
 
 ```
