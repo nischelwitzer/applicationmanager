@@ -1,5 +1,7 @@
 
-# Application Manager
+# Globale Utilities 
+
+## Application Manager
 
 Example with Unity, OpenCV and Face68 Detection. Nose and Mouth calculation. Including normalization with NDC (noramlized device coordinates).
 
