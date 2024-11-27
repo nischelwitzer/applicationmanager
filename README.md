@@ -52,5 +52,20 @@ https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
 
 Globaler Speicher um bei einen Scenenwechsel Daten zu übernehmen.
 
+Verwendung:
+* Getter: DMT.DMTStaticStore.MyPoints
+* Setter: DMT.DMTStaticStore.MyPoints = 0;
+
+  
+```
+// DMT.DMTStaticStore.MyPoints = 0;
+// DMT.DMTStaticStore.MyPoints++; 
+
+public static int MyPoints
+{
+    get { return _myPoints; }
+    set { _myPoints = value; }
+}
+```
 
 ```
