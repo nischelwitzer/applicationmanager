@@ -15,8 +15,8 @@ namespace DMT
         private static int _myRound = 0;
         private static float _Timer;
         
-        // DMT.DMTStaticStore.myPoints = 0;
-        // DMT.DMTStaticStore.myPoints++; 
+        // DMT.DMTStaticStore.MyPoints = 0;
+        // DMT.DMTStaticStore.MyPoints++; 
         public static int MyPoints
         {
             get { return _myPoints; }
@@ -37,7 +37,7 @@ namespace DMT
             set => _Timer = value;
         }
         
-        public static int myCollecting
+        public static int MyCollecting
         {
             get { return _myCollecting; }
             set
