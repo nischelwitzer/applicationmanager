@@ -3,38 +3,40 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
-// usage: DMT.StaticStore.myData = ...
+// IMA DMT 
+// usage: DMT.DMTStaticStore.myData = ...
 
 namespace DMT
 {
-    public static class StaticStore
+    public static class DMTStaticStore
     {
-        private static int _myCollecting = 0;
-        private static int _myRoundShort = 0;
         private static int _myPoints = 0;
-        private static int _myTimer = 0;
-
-        // DMT.StaticStore.myPoints = 0;
-        // DMT.StaticStore.myPoints++; 
-        public static int myPoints
+        private static int _myCollecting = 0;
+        private static int _myRound = 0;
+        private static float _Timer;
+        
+        // DMT.DMTStaticStore.myPoints = 0;
+        // DMT.DMTStaticStore.myPoints++; 
+        public static int MyPoints
         {
             get { return _myPoints; }
             set { _myPoints = value; }
         }
-
-        public static int myTimer
+        
+        public static int MyRound
         {
-            get { return _myTimer; }
-            set { _myTimer = value; }
+            get { return _myRound; }
+            set { _myRound = value; }
         }
 
-        public static int myRoundShort
+        public static int MyPlayerLifes { get; set; }
+
+        public static float Timer
         {
-            get { return _myRoundShort; }
-            set { _myRoundShort = value; }
+            get => _Timer;
+            set => _Timer = value;
         }
-
-
+        
         public static int myCollecting
         {
             get { return _myCollecting; }
